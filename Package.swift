@@ -14,6 +14,8 @@ let package = Package(
     targets: [
         .target(
             name: "TheAmazingAudioEngine",
-            dependencies: []),
+            path: "Sources/TheAmazingAudioEngine",
+            publicHeadersPath: "include"
+        )
     ]
 )
